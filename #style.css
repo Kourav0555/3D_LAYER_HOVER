@@ -1,0 +1,221 @@
+/* ====== GLOBAL STYLES ====== */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #fafafa;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+/* ====== NAVBAR ====== */
+header {
+  background: #111;
+  color: white;
+  padding: 20px 50px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.logo span {
+  color: #00c8ff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00c8ff;
+}
+
+/* ====== HERO SECTION ====== */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px 50px;
+  flex-wrap: wrap;
+  background: #f2f2f2;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h2 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  color: #555;
+}
+
+.btn {
+  background: linear-gradient(45deg, #00c8ff, #0066ff);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 15px rgba(0, 150, 255, 0.5);
+}
+
+.hero-img {
+  width: 280px;
+  max-width: 90%;
+}
+
+/* ====== FEATURES ====== */
+.features {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.feature {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* ====== PRICING ====== */
+.pricing {
+  text-align: center;
+  padding: 70px 20px;
+  background: #f8f8f8;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  width: 220px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.card.popular {
+  border: 2px solid #00c8ff;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.card button {
+  background: #00c8ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card button:hover {
+  background: #0097cc;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 200, 255, 0.3);
+}
+
+/* ====== FOOTER ====== */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+footer a {
+  color: #00c8ff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text h2 {
+    font-size: 2em;
+  }
+
+  .feature-container, .pricing-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
