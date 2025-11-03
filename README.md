@@ -7,10 +7,10 @@ I’m currently exploring more about animations, transforms, and creative effect
 
 
 # What I Learned
-- How to use transform and transition in CSS  
-- Positioning elements using absolute and relative  
-- Creating depth and illusion using multiple image layers  
-- Playing with gradient backgrounds  
+- Using transform and transition for smooth animations  
+- Positioning elements with absolute and relative  
+- Creating depth through layered images  
+- Applying gradient backgrounds for visual appeal 
 
 # Tech Used
 - HTML5 — to structure the layout  
