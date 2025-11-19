@@ -5,7 +5,6 @@ It’s a simple experiment where I tried to create a 3D layered hover animation 
 
 I’m currently exploring more about animations, transforms, and creative effects in CSS, and this project was a fun way to practice that.  
 
-
 # What I Learned
 - Using transform and transition for smooth animations  
 - Positioning elements with absolute and relative  
