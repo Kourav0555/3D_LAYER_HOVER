@@ -59,3 +59,6 @@ body {
     transform: translate(80px, -80px);
     opacity: .1;
   }
+  body {
+    background-color: aliceblue;
+  }
